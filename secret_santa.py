@@ -12,4 +12,4 @@ for x in range(len(members_temp)):
         members_temp[x], members_temp[x+1] = members_temp[x+1], members_temp[x]
     
 for x in range(len(members)):
-    print("%s gets %s" % (members[x], str(members_temp[x])))
+    print("%s gets %s" % (members[x], members_temp[x]))
